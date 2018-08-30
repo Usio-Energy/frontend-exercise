@@ -8,7 +8,7 @@ High level requirements:
 - Reorder tasks.
 - Mark task as completed (with an X).
 - Display the following message, it must be always up to date with the list: "10 out of 20 tasks completed"
-- Should be resposive design.
+- Should be responsive design.
 
 Technical requirements:
 
