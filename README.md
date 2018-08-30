@@ -1,6 +1,6 @@
 # Frontend Exercise
 
-## To-Do list application
+## Write a To-Do list application, using ReactJS
 
 High level requirements:
 
