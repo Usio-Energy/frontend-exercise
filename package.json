@@ -7,12 +7,14 @@
   "author": "Muhanad Al-Rubaiee",
   "license": "MIT",
   "scripts": {
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "jest": "^23.5.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
