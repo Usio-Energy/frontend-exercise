@@ -1,5 +1,5 @@
 ## What's this
-This is a technical test that makes (a very ugly and basic) todo app in React.
+This is a technical test that makes (a very ugly and basic) todo app in React. I've used native React state instead of Redux because it would be an overkill. For larger applications I tend to follow the ducks/re-ducks pattern, but this is such a small app that this folder structure is sufficient.
 
 ## How to run
 Open your command line and follow these steps:
