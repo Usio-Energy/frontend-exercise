@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Render should render correctly 1`] = `
+<div>
+  <h1>
+    To do app
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      id="add-input"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <input
+      id="add-btn"
+      type="submit"
+      value="Add"
+    />
+  </form>
+  <div
+    className="status"
+  >
+    0
+     out of 
+    2
+     tasks completed
+  </div>
+  <ul>
+    <Item
+      id={1}
+      isComplete={false}
+      onRemove={[Function]}
+      onStatusChange={[Function]}
+      value="Item 1"
+    />
+    <Item
+      id={2}
+      isComplete={false}
+      onRemove={[Function]}
+      onStatusChange={[Function]}
+      value="Item 2"
+    />
+  </ul>
+</div>
+`;
