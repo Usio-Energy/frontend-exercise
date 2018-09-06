@@ -1,0 +1,50 @@
+{
+  "name": "usio-todo",
+  "version": "1.0.0",
+  "description": "Technical test",
+  "main": "dist/app.bundle.js",
+  "repository": "https://github.com/muhanad40/usio-todo",
+  "author": "Muhanad Al-Rubaiee",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "test": "jest",
+    "test:watch": "jest --watch --verbose"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "node-sass": "^4.9.3",
+    "regenerator-runtime": "^0.12.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "jest": {
+    "testRegex": "__tests__/(.*).test\\.js$",
+    "setupFiles": [
+      "<rootDir>/src/__tests__/setup.js"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/preset-react"
+    ]
+  }
+}
