@@ -1,21 +1,38 @@
-# Frontend Exercise
+# Todo app
 
-## Write a To-Do list application, using ReactJS
+## About me
+Russ Hall  
+russ@2tap.com  
+07708 804580  
 
-High level requirements:
+## Libraries used
 
-- Add and remove tasks from the list. 
-- Reorder tasks.
-- Mark task as completed (with an X).
-- Display the following message, it must be always up to date with the list: "10 out of 20 tasks completed"
-- Should be responsive design.
+* Create React App (all defaults)
+* React Sortable (HOC)
+* Enzyme (DOM utility methods for testing)
 
-Technical requirements:
+## Commands
+Clone repo and run `npm install`
 
-- Write code as you normally would write for a real customer-facing application.
-- Use ReactJS and any other libraries you want.
-- Provide instructions on how to install and run the application.
-- Document (in a text/markdown file) how you could improve the application architecture/functionality.
-- If you ran out of time on any of the high level requirements, write down which you specifically did not yet implement.
+### Running
+`npm start`
 
-Try to spend no more than 4 hours on the exercise. Submit a pull request with your code or send it directly via email.
+### Test
+`npm test`
+
+## Improvements
+
+I used Create React App boilerplate for a quick start. These are fine defaults for a small project but wouldn't nessarily be what I'd use on something larger.
+
+### Styling
+I prioritised testing and React implementation over styling etc. I'm not necessarily a fan of the default CRA CSS setup (at least not without extending it with SASS or similar) but it's fine for this quick demo. Depending on the project I might use styled-jsx for component-based namespaced styling etc.
+
+### Testing
+I implemented a basic set of unit tests but these could be made more robust and/or extensive.
+
+### React achitecture
+This is a tiny app so using any kind of Flux-esque architecture seemed overkill. However, in a larger application it wouldn't be much fun passing through the props down to child components that needed the data so I'd use something like Redux or the React Context API depending on the situation and requirements.
+
+### Compatibility
+I've made no effort on browser testing here. CRA has a sensible set of defaults but I suspect I'd need some polyfills for IE < Edge. This would be evaulated based on the project needs.
+
